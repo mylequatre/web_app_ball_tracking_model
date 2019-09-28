@@ -104,5 +104,5 @@ def load_fb_trackingmodel():
     return model
 
 model=load_fb_trackingmodel()
-model.load_weights('')
+model.load_weights('') # Add model weights path. Can be downloaded @ https://storage.cloud.google.com/ball-tracking-model-weights/soccer_ball_tracking_model_weights.h5
 
